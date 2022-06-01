@@ -1,0 +1,470 @@
+@import reset
+$bluecolor: #269feae1
+
+html 
+    scroll-behavior: smooth
+    outline: none
+    
+body
+    font-family: 'Montserrat', sans-serif
+    background-color: grey
+    position: relative
+.textblue
+    color: $bluecolor
+.scroll-fix
+.scroll-fix::before
+    content: ''
+    height: 4rem
+    margin-top: -4rem
+    z-index: 100
+.wrapper
+    width: 80%
+    padding: 2rem 0
+    margin: 0 auto
+    h2
+        margin-top: -10px
+.underline
+    margin: 0 auto
+    width: 70px
+    height: 5px
+    background-color: $bluecolor
+    margin-bottom: 50px
+h2 
+    text-align: center
+    text-transform: uppercase
+
+
+
+
+
+
+/* NAVIGATION */
+nav  
+    text-transform: uppercase
+    a, i
+        color: #ffffff
+
+    a:hover
+        color: $bluecolor
+
+    i
+        padding: 5px 0px 5px 10px
+
+    .navbar-brand
+        font-size: 25px
+        font-family: 
+  
+
+.navbarshadow
+    background-color: rgba(0,0,0,0.8)
+
+/* HEADER */
+header
+    color: #ffffff
+
+    h1 
+        text-transform: uppercase
+        font-size: 3rem
+        padding: 0px 20px 0px 20px
+    h2 
+        font-size: 20px
+        padding: 10px
+        text-transform: none
+@media (max-width: 319px)
+    header
+        h1 
+            font-size: 1.8rem
+        h2
+            font-size: 0.9em
+
+@media (min-width: 320px)
+    header
+        h1 
+            font-size: 2rem
+        h2 
+            font-size: 0.9em
+@media (min-width: 360px)
+    header
+        h1  
+            font-size: 2.1rem
+        h2 
+            font-size: 1em
+
+@media (min-width: 396px)
+    header
+        h1  
+            font-size: 2.2rem
+        h2 
+            font-size: 1.1em
+@media (min-width: 436px)
+    header
+        h2 
+            font-size: 1.1em
+    .hero-btn
+        margin-top: -20px
+
+/* ------- HERO IMG ------ */
+
+.hero-img
+    position: relative
+    background-image: url(./images/heroimg-small.jpg)
+    background-position: center
+    background-size: cover
+    background-attachment: fixed
+    width: 100%
+    height: 100vh
+    z-index: 0
+        
+.hero-shadow
+    position: absolute
+    width: 100%
+    height: 100%
+    background-color: rgba(0, 0, 0, 0.795)
+    z-index: -10
+
+.hero-text
+    height: 100%
+    display: flex
+    flex-flow: column nowrap
+    justify-content: center
+    align-items: center
+    text-align: center
+    a   
+        text-transform: uppercase
+        letter-spacing: 2px
+        font-size: 11px
+
+.hero-btn
+    position: relative
+    top: 30px
+    padding: 10px 10px 10px 10px
+
+    
+.hero-arrow
+    width: 100%
+    height: 80px
+    display: flex
+    justify-content: center
+    align-items: center
+    position: absolute
+    bottom: -10px
+    font-size: 35px
+    color: #ffff
+    animation: bounce 2s infinite 3s
+
+.hero-arrow:hover
+    color: $bluecolor
+    text-decoration: none
+.socialmediahead
+    position: absolute
+    right: 0
+    bottom: 0
+    padding: 15px
+    i
+        display: none
+        font-size: 30px
+        padding: 10px
+        color: #dddddd
+        text-shadow: 2px 3px 1px black
+    i:hover
+        color: $bluecolor
+     
+
+
+/*-------ABOUT----*/
+
+#about
+    .wrapper
+        padding-top: 4rem
+        padding-bottom: 6rem
+    i
+        font-size: 40px
+        margin-top: 30px
+        margin-bottom: 15px
+    .ihover
+        animation: swing 2s infinite
+    h2 
+        color: #3d3d3d
+    h5 
+        text-transform: uppercase
+.highlight
+    transition: color 0.2s
+.visibility
+    visibility: hidden
+.highlight:hover
+    color: $bluecolor
+
+/* -------ABOUT-HERO----------- */
+#about-hero
+    display: flex
+    align-items: center
+    position: relative
+    background-image: url(./images/aboutheroimg-small.jpg)
+    background-size: cover
+    background-attachment: fixed
+    background-position: center
+    width: 100%
+    height: 100%
+    margin-top: -2rem
+    z-index: 0
+    
+    .about-shadow
+        position: absolute
+        width: 100%
+        height: 100%
+        background-color: rgba(0, 0, 0, 0.65)
+        z-index: -10
+    .abh
+        margin-top: 35px
+        margin-bottom: 10px
+    .wrapper
+        padding: 6rem 0
+        color: #ffffff
+    h2
+        color: #ddd
+        z-index: 10
+        margin-top: -20px
+
+    h5 
+        text-transform: uppercase
+        font-weight: bold
+        transition: color 0.3s
+    h5:hover 
+        color: $bluecolor
+    p 
+        transition: color 0.3s
+    p:hover 
+        color: $bluecolor 
+    i 
+        font-size: 50px
+        padding: 10px
+
+/* ------- GALLERY ------ */
+
+#gallery
+    .wrapper
+        width: 90%
+        padding: 3rem 0 0 0
+        margin-bottom: 100px
+    #carddeck
+        h5
+            text-transform: uppercase
+            font-weight: bold
+            text-align: center
+        p 
+            text-align: center
+        .card
+            margin-bottom: 50px
+
+    #carousel
+        .carousel-item
+            position: relative
+            width: 100%
+            height: 450px
+        img 
+            position: absolute
+            top: 50%
+            left: 50%
+            transform: translate(-50%, -50%)
+        .card-title
+            text-align: center
+            font-weight: bold
+        .card-text
+            text-align: center
+        
+            .underline
+                margin-bottom: 60px
+        .carousel-caption
+            h5 
+                font-weight: bold
+            background-color: #000000a3
+            left: 0
+            right: 0
+            padding: 30px 50px
+        .carousel-indicators
+            bottom: 15px
+#prices
+    margin-top: -8rem
+    .wrapper
+        width: 90%
+        padding: 3rem 0 0 0
+    h2
+        margin-top: 0px
+        padding-top: 30px
+
+    .price-box
+        box-shadow: 3px 3px 10px black
+        margin: 0px 0px 40px 0px
+        background-color: #ffffff
+        padding: 30px 0px 20px
+        transition: transform 0.5s
+    .price-box:hover
+        transform: scale(1.05)
+    h4 
+        text-transform: uppercase
+        font-weight: bold
+        color: $bluecolor 
+    span 
+        font-weight: bold
+    .price
+        font-size: 30px
+        font-weight: bold
+    .btn
+        text-transform: uppercase
+        padding: 10px 20px
+    i 
+        font-size: 30px
+    .price-foottext
+        p   
+            margin-top: 15px
+            font-size: 18px
+
+/*   TEAM    */
+#team
+    margin-top: -2rem
+    text-align: center
+    .jumbotron
+        position: relative
+        background-image: url(./images/teambg.jpg)
+        background-size: cover
+        background-attachment: fixed
+        background-position: center
+        z-index: 0 
+    .team-shadow
+        position: absolute
+        width: 100%
+        height: 100%
+        background-color: rgba(0, 0, 0, 0.5)
+        z-index: -10
+        margin-top: -2rem
+    h2 
+        margin-top: 30px
+        color: #efefef
+    .card
+        img 
+            height: 300px
+            object-fit: cover
+    .card-body
+            font-size: 14px
+            height: 250px
+            @media screen and (min-width: 400px)
+                font-size: 16px
+            @media screen and (min-width: 500px) 
+                height: 200px
+
+    .card-title
+        text-transform: uppercase
+        font-weight: bold
+    .slick-prev:before, .slick-next:before
+        color: #ffffff
+        opacity: 1
+        font-size: 30px
+    .slick-prev:before
+        margin-left: -5px
+    .slick-next:before
+        margin-left: -5px
+    .slick-prev, .slick-next
+        background-color: #00000078
+        border-radius: 50%
+        width: 20px
+        height: 20px
+    .slick-prev
+        margin-left: -10px
+    .slick-next
+        margin-right: -10px
+    .slick-dots
+        li  
+            button::before
+                color: white
+                font-size: 10px
+                margin-top: -30px
+    .card-footer
+        font-size: 14px
+        @media screen and (min-width: 400px)
+            font-size: 17px
+        @media screen and (min-width: 750px) 
+            font-size: 16px
+        i
+            font-size: 17px
+            padding-right: 10px
+    .card:hover
+        box-shadow: 0px 0px 15px $bluecolor
+        transition: box-shadow 1s
+
+
+/*      ACHIEVEMENTS      */
+
+#achievements
+    margin-top: -2rem
+    text-align: center
+    .jumbotron
+        margin-bottom: 0
+    .Apadding
+        padding: 3rem 0rem -3rem 0rem
+    .wrapper
+        margin-top: -3rem
+        margin-bottom: -3rem
+        width: 90%
+        .achievement
+            padding: 20px 0px    
+    h2 
+        margin-top: 2rem
+    i
+        font-size: 45px
+        padding: 0px
+        color: $bluecolor
+        text-shadow: 1px 1px 1px black
+    p 
+        text-transform: uppercase
+
+/* CONTACT */ 
+#contact
+    h2
+        color: #dddddd
+    h3 
+        text-transform: uppercase
+    .underline
+        background-color: #dddddd
+    .jumbotron
+        margin-bottom: 0
+        padding: 5rem 0 6.2rem 0
+        position: relative
+        background-image: url(./images/bgcontact.jpg)
+        background-size: cover
+        background-position: bottom
+        background-attachment: fixed
+        z-index: 0
+    .contact-shadow
+        position: absolute
+        width: 100%
+        height: 100%
+        background-color: rgba(0, 0, 0, .65)
+        margin-top: -5rem
+        z-index: -10
+    .contact-us
+        color: #ffffff
+        display: flex
+        align-items: center
+    .contact-item
+        margin: 30px 0
+        padding: 20px
+    .social-media
+        font-size: 26px
+        a 
+            color: #ffffff
+            padding: 10px 8px
+        a:hover
+            color: $bluecolor
+            i:hover
+                transform: scale(1.4) 
+
+
+/* FOOTER */ 
+
+footer
+    color: #fff
+    background-color: #0a0a0a
+    p
+        text-align: center
+        padding: 20px
+        margin-bottom: 0
