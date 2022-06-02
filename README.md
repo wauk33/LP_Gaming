@@ -10,11 +10,11 @@ https://wauk33.github.io/MyRepo/bootstrap%20RWD%20Gaming%20website/
 
 ## Features
 * RWD
-* Libraries integration
+* JS libraries integration
 
 To-do list:
 * Repair issues of improper displaying background images on various mobile devices
 
 ## Inspiration
-Project is made by myself entirely. Inspired by the author of video course.
+Made by me. Inspired by the author of video course.
 
