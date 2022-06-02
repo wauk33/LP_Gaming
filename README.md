@@ -14,6 +14,7 @@ https://wauk33.github.io/MyRepo/bootstrap%20RWD%20Gaming%20website/
 
 To-do list:
 * Repair issues of improper displaying background images on various mobile devices
+* Optimize images and performance
 
 ## Inspiration
 Created by myself. Inspired by the author of video course.
