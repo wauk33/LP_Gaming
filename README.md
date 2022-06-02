@@ -1,8 +1,8 @@
 # Gaming company landing page - template
-> Simple landing page created with HTML, CSS, SASS, JavaScript, Bootstrap.
+> Simple landing page created with HTML, CSS, SASS, JavaScript, Bootstrap, Slick.js.
 
 ## General info
-The motivation to create the project was to expand knowledge of Bootstrap and usage of JS libraries. This site is one of my first projects realized with these technologies.
+The motivation to create this project was to expand knowledge of Bootstrap and usage of JS libraries. This site is one of my first projects realized with these technologies.
 
 ## Preview
 https://wauk33.github.io/MyRepo/bootstrap%20RWD%20Gaming%20website/
