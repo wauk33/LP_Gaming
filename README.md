@@ -5,7 +5,7 @@
 The motivation to create this project was to expand knowledge of Bootstrap and usage of JS libraries. This site is one of my first projects realized with these technologies.
 
 ## Preview
-https://wauk33.github.io/MyRepo/bootstrap%20RWD%20Gaming%20website/
+https://wauk33.github.io/LP_Gaming
 > Hosted on GitHub Pages
 
 ## Features
