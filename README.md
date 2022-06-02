@@ -2,7 +2,7 @@
 > Simple landing page created with HTML, CSS, SASS, JavaScript, Bootstrap.
 
 ## General info
-The motivation for this project was to expand knowledge of Bootstrap and usage of JS libraries. This site was one of my first projects realized with these technologies.
+The motivation to create the project was to expand knowledge of Bootstrap and usage of JS libraries. This site is one of my first projects realized with these technologies.
 
 ## Preview
 https://wauk33.github.io/MyRepo/bootstrap%20RWD%20Gaming%20website/
