@@ -16,5 +16,5 @@ To-do list:
 * Repair issues of improper displaying background images on various mobile devices
 
 ## Inspiration
-Made by me. Inspired by the author of video course.
+Created by myself. Inspired by the author of video course.
 
