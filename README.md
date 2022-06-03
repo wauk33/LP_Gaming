@@ -17,5 +17,5 @@ To-do list:
 * Optimize images and performance
 
 ## Inspiration
-Created by myself. Inspired by the author of video course.
+Created by myself during learning of video course. Inspired by the author of course.
 
